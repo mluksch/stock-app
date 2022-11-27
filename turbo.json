@@ -1,0 +1,19 @@
+{
+  "pipeline": {
+    "build": {
+      "inputs": ["**/*.ts"],
+      "dependsOn": ["^build"]
+    },
+    "test": {
+      "outputs": [],
+      "dependsOn": ["^build"]
+    },
+    "start": {
+      "cache": false,
+      "dependsOn": ["build"]
+    },
+    "dev": {
+      "cache": false
+    }
+  }
+}

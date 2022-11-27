@@ -1,0 +1,9 @@
+{
+  "name": "@stock/tsconfig",
+  "version": "1.0.0",
+  "description": "",
+  "files": ["tsconfig.json"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
