@@ -1,13 +1,17 @@
 {
-  "name": "@stock/tsconfig",
+  "name": "@stock/client",
   "version": "1.0.0",
   "description": "",
-  "files": [
-    "tsconfig.json"
-  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@stock/tsconfig": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^4.9.3"
   }
