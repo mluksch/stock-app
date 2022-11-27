@@ -1,3 +1,3 @@
 export const getStockData = async () => {
-  return ["aadad"];
+  return ["test 777"];
 };

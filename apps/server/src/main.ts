@@ -1,7 +1,7 @@
 import { getStockData } from "@stock/stock-api";
 
 export const main = async () => {
-  console.log("abbbb:" + (await getStockData()));
+  console.log("test 7:" + (await getStockData()));
 };
 
 main();
